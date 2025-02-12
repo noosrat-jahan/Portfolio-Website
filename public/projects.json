@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "projectName": "EASYLEARN",
+    "projectType": "EduManage Website",
+    "projectImage": "https://i.ibb.co.com/bj9xc29z/Screenshot-2025-02-05-110607.png","projectImagedet": "https://i.ibb.co.com/bj9xc29z/Screenshot-2025-02-05-110607.png",
+    "details": {
+      "mainTechStack": [
+        "React",
+        "Tailwind CSS",
+        "Firebase",
+        "MongoDB",
+        "Stripe.js"
+      ],
+      "briefDescription": "Easylearn is an academic platform to connects students with teachers. Easylearn website has multiple dynamic features designed differently for different user role such as for general student, teacher and admin. These features can be accessible from these users dashboard. This website conatin a nice and simple user interface, responsive slider, tables to display data and many interactive buttons with relevant functionality",
+      "liveLink": "https://easy-learn-72ac3.web.app/",
+      "githubLink": "https://github.com/noosrat-jahan/Easylearn-Platform.git",
+      "detailedDescription": "Easylearn is an academic platform to connects students with teachers. Easylearn website has multiple dynamic features designed differently for different user role such as for general student, teacher and admin. These features can be accessible from these users dashboard. This website conatin a nice and simple user interface, responsive slider, tables to display data and many interactive buttons with relevant functionality. This website has multiple features: \n1. User can log in and register through user's email and password and can login with google also. \n2. Students can enroll classes using payment method. \n3. Admin can handle users, tecaher request, approve or reject users admin requests and can delete users etc.\n\n Challenges that I faced during building this project: \n1. Since i have implemented payment method first time in my project initially I got some error and faced difficulties to properly implement the feature. \n2. This project contain 3 user roles and I had to invest much time here to create three different dashboards based on user role with relevant contents. \n3. Also I had to give much time to properly implement some additional features based on project requiremnts such as pagination, searching and sorting etc. \n\n Improvements for this project: \n 1. I have plan to implement dark theme in the whole website. \n 2. I have to implement Infinite scrolling in all classes page by using tanstack react query."
+    }
+  },
+  {
+    "id": 2,
+    "projectName": "EnduroFest",
+    "projectType": "Marathon Management System",
+    "projectImage": "https://i.ibb.co.com/ySbYfnc/project1.png",
+    "projectImagedet": "https://i.ibb.co.com/LDsL3q9j/projectdemo.png",
+    "details": {
+      "mainTechStack": [
+        "React",
+        "Tailwind CSS",
+        "Firebase",
+        "MongoDB"
+      ],
+      "briefDescription": "A full-featured e-commerce platform with user authentication, cart management and api integration.",
+      "liveLink": "https://endurofest-1f5d3.web.app/",
+      "githubLink": "https://github.com/noosrat-jahan/EnduroFest.git",
+      "detailedDescription": "This project is mainly about a marathon management system. The key features of this website was: \n1. Event Organizers can add new marathon events, view own created marathon, can update info and remove event. \n 2. Participants can apply in marathon events, view their own applied marathon, can update info and remove application. \n 3. User can log in and register through email and password and with google also. \n 4. Application Registration button will activate according to event registration time. \n\n Designing the whole project and implementing functionality was exciting to me but was challenging in some cases also. Specially in the day of submission some unexpected error had been shown up during implementing jwt token, it took mush time that i couldn't try on implementing some extra features. So I have decided to improve in that area. The unimplemented task have to be done. "
+    }
+  },
+  {
+    "id": 3,
+    "projectName": "SparkFund",
+    "projectType": "Crowd Funding Application",
+    "projectImage": "https://i.ibb.co.com/HtfS2Mk/project2.png",
+    "projectImagedet": "https://i.ibb.co.com/8DRzvDXK/projectdemo.png",
+    "details": {
+      "mainTechStack": [
+        "React",
+        "Tailwind CSS",
+        "Firebase",
+        "MongoDB"
+      ],
+      "briefDescription": "A personal portfolio to showcase projects, skills, and contact details in an interactive format.",
+      "liveLink": "https://sparkfund-fa3af.web.app/",
+      "githubLink": "https://github.com/noosrat-jahan/SparkFund.git",
+      "detailedDescription": "The key Features of this projects are following: \n 1. SparkFund is a beautiful crowd funding website where any user can know about all running crowd funding campaigns. \n 2. Any user can Login and Register with his valid email address and password and with his/her google account also. \n 3. Any logged in user can add a new campaign with necessary information. \n 4. User can view all campaigns, update his/ her added campaign and can delete that campaign also. \n 5. Any logged in user can contribute or donate for any campaign and can view his/her donated campaign in myCampaign page."
+    }
+  },
+  {
+    "id": 4,
+    "projectName": "Expresso Emporium",
+    "projectType": "Coffee Store Management System",
+    "projectImage": "https://i.ibb.co.com/wRvk8Ws/project3.png",
+    "projectImagedet": "https://i.ibb.co.com/bj0dBfDw/Screenshot-60.png",
+    "details": {
+      "mainTechStack": [
+        "React",
+        "Tailwind CSS",
+        "Firebase",
+        "MongoDB"
+      ],
+      "briefDescription": "A task management application with features like task creation, progress tracking, and user collaboration.",
+      "liveLink": "https://expresso-emporium-8e12e.web.app/",
+      "githubLink": "https://github.com/noosrat-jahan/Expresso-Emporium-Client.git",
+      "detailedDescription": "It was an interesting project for me because this project theme is visually appealing and relevant to real life experience. I had fun in designing and implementing this project. Specially cool ui design have excited me to complete the site properly . Also backend or database integration was a new and fun experience to me."
+    }
+  }
+]
