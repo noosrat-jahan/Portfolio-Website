@@ -67,7 +67,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link target='blank' to="https://drive.google.com/file/d/1UZRkSRatBdSdIDMiRzr6EoQdxotsc1pL/view?usp=sharing" className=" border border-amber-200 rounded-md px-4 py-2 text-amber-100">Download Resume</Link>
+                    <Link target='blank' to="https://drive.google.com/file/d/1vHzV2gJ1O_db-uj6oE4H9npm4vWpCWHp/view?usp=sharing" className=" border border-amber-200 rounded-md px-4 py-2 text-amber-100">Download Resume</Link>
                 </div>
             </div>
         </div>

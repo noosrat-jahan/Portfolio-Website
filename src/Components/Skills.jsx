@@ -24,82 +24,82 @@ const Skills = () => {
         Skills
       </h1>
 
-      <div className="grid grid-cols-2  md:grid-cols-4 gap-y-5">
+      <div className="grid grid-cols-2  md:grid-cols-4 gap-y-16">
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.3}}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={react} alt="" className="w-32" />
           <h2>React</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.6 }}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={js} alt="" className="w-32" />
           <h2>Javascript</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.9 }}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={python} alt="" className="w-32" />
           <h2>Python</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1.2 }}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={html} alt="" className="w-28" />
           <h2>HTML</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" , delay: 1.5 }}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={css} alt="" className="w-28" />
           <h2>CSS</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" , delay: 1.8 }}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={tailwind} alt="" className="w-28" />
           <h2>Tailwind CSS</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut"  , delay: 2.1}}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={firebase} alt="" className="w-28" />
           <h2>Firebase</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut"  , delay: 2.4}}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={mongodb} alt="" className="w-28" />
           <h2>MongoDB</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut"  , delay: 2.7}}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={git} alt="" className="w-28" />
           <h2>Git</h2>
         </motion.div>
         <motion.div
-          animate={{ y: [0, -30, 0] }}
-          transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+          animate={{ y: [0, -20,  20, 0] }}
+          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut"  , delay: 3}}
           className="border border-gray-200 bg-purple-400 bg-opacity-40 flex flex-col justify-center items-center w-24 h-28 lg:w-52 lg:h-56  rounded-lg p-3"
         >
           <img src={npm} alt="" className="w-28" />
@@ -107,6 +107,9 @@ const Skills = () => {
         </motion.div>
       </div>
 
+
+
+    {/* Education section  */}
       <h1 className="bg-gradient-to-r border-t border-amber-50 w-full mt-10 pt-10 pb-10 from-[#e6bc47] via-[#e99554] to-amber-400 inline-block text-transparent bg-clip-text lg:text-6xl text-5xl font-bold ">
         Education
       </h1>

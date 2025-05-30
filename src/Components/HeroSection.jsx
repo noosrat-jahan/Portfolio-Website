@@ -37,7 +37,7 @@ const HeroSection = () => {
                 </h1>
 
                 <div className="pt-10">
-                    <Link target='blank' to="https://drive.google.com/file/d/1UZRkSRatBdSdIDMiRzr6EoQdxotsc1pL/view?usp=sharing" className=" border border-amber-200 rounded-md shadow-md shadow-orange-100 px-4 py-4 text-amber-100 font-bold">Download Resume</Link>
+                    <Link target='blank' to="https://drive.google.com/file/d/1vHzV2gJ1O_db-uj6oE4H9npm4vWpCWHp/view?usp=sharing" className=" border border-amber-200 rounded-md shadow-md shadow-orange-100 px-4 py-4 text-amber-100 font-bold">Download Resume</Link>
                 </div>
 
             </div>
